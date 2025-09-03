@@ -4,7 +4,8 @@ export default function BundlingLab() {
       <section className="mx-auto max-w-4xl px-6 py-10">
         <h1 className="text-2xl font-bold">Bundling Lab</h1>
         <p className="mt-2 text-gray-600">
-          코드 스플리팅, 이미지/폰트 최적화, 번들 사이즈 분석과 Turbopack/Webpack/Vite 비교를 다룰 예정.
+          코드 스플리팅, 이미지/폰트 최적화, 번들 사이즈 분석과 Turbopack/Webpack/Vite 비교를 다룰
+          예정.
         </p>
 
         <div className="mt-6 space-y-3">
@@ -24,7 +25,9 @@ export default function BundlingLab() {
           </ol>
         </div>
 
-        <a href="/" className="mt-8 inline-block text-blue-600">← 홈으로</a>
+        <a href="/" className="mt-8 inline-block text-blue-600">
+          ← 홈으로
+        </a>
       </section>
     </main>
   );

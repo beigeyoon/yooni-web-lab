@@ -4,7 +4,8 @@ export default function BrowserLab() {
       <section className="mx-auto max-w-4xl px-6 py-10">
         <h1 className="text-2xl font-bold">Browser Lab</h1>
         <p className="mt-2 text-gray-600">
-          이벤트 루프/큐, rAF, 스로틀·디바운스, IntersectionObserver, CORS/프리플라이트 등 브라우저 기초를 체험형으로.
+          이벤트 루프/큐, rAF, 스로틀·디바운스, IntersectionObserver, CORS/프리플라이트 등 브라우저
+          기초를 체험형으로.
         </p>
 
         <div className="mt-6 space-y-3">
@@ -24,7 +25,9 @@ export default function BrowserLab() {
           </ol>
         </div>
 
-        <a href="/" className="mt-8 inline-block text-blue-600">← 홈으로</a>
+        <a href="/" className="mt-8 inline-block text-blue-600">
+          ← 홈으로
+        </a>
       </section>
     </main>
   );

@@ -25,7 +25,9 @@ export default function RenderingLab() {
           </ol>
         </div>
 
-        <a href="/" className="mt-8 inline-block text-blue-600">← 홈으로</a>
+        <a href="/" className="mt-8 inline-block text-blue-600">
+          ← 홈으로
+        </a>
       </section>
     </main>
   );

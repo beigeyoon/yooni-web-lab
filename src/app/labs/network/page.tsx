@@ -4,7 +4,8 @@ export default function NetworkLab() {
       <section className="mx-auto max-w-4xl px-6 py-10">
         <h1 className="text-2xl font-bold">Network Lab</h1>
         <p className="mt-2 text-gray-600">
-          HTTP 캐시 헤더(max-age, s-maxage, stale-while-revalidate), Edge Runtime, Retry/Backoff, AbortController를 실습.
+          HTTP 캐시 헤더(max-age, s-maxage, stale-while-revalidate), Edge Runtime, Retry/Backoff,
+          AbortController를 실습.
         </p>
 
         <div className="mt-6 space-y-3">
@@ -24,7 +25,9 @@ export default function NetworkLab() {
           </ol>
         </div>
 
-        <a href="/" className="mt-8 inline-block text-blue-600">← 홈으로</a>
+        <a href="/" className="mt-8 inline-block text-blue-600">
+          ← 홈으로
+        </a>
       </section>
     </main>
   );
