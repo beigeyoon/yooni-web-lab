@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function NetworkLab() {
   return (
     <main className="min-h-dvh bg-white">
@@ -25,9 +27,9 @@ export default function NetworkLab() {
           </ol>
         </div>
 
-        <a href="/" className="mt-8 inline-block text-blue-600">
+        <Link href="/" className="mt-8 inline-block text-blue-600">
           ← 홈으로
-        </a>
+        </Link>
       </section>
     </main>
   );

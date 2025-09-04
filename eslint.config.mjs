@@ -1,12 +1,12 @@
 // eslint.config.mjs
+import { FlatCompat } from '@eslint/eslintrc';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { FlatCompat } from '@eslint/eslintrc';
 
-import pluginImport from 'eslint-plugin-import';
-import pluginUnusedImports from 'eslint-plugin-unused-imports';
 import tseslint from '@typescript-eslint/eslint-plugin';
 import tsParser from '@typescript-eslint/parser';
+import pluginImport from 'eslint-plugin-import';
+import pluginUnusedImports from 'eslint-plugin-unused-imports';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -72,6 +72,7 @@ export default [
       // ===== 기타 실무 권장 =====
       'no-console': ['warn', { allow: ['warn', 'error'] }],
       '@typescript-eslint/consistent-type-imports': ['warn', { prefer: 'type-imports' }],
+      '@typescript-eslint/no-explicit-any': 'off',
     },
   },
 ];
